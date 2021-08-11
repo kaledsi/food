@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 610px){
+    .bannner-section {
+          top: -137px;
+    }
+    .menu{
+        margin: auto;
+    }
+    .nav img {
+       
+        margin: auto;
+        display: block;
+    }
+  
+    .header {
+    
+        flex-direction: column;
+    }
+    .service-section {
+       
+        flex-direction: column;
+       
+        
+        margin-top: -136px;
+        
+    }
+    .card {
+     
+        margin: auto;
+        margin-top: 10px;
+       
+    }
+}
+
+@media  screen and (max-width: 770px) {
+
+    .service-section {
+       
+        flex-direction: column;
+        justify-content: center;
+       
+        
+      
+        
+    }
+
+    .card {
+       margin-left: 600px;
+        
+    }
+    .our-client {
+        
+        height: 800px;
+        
+    }
+    .mst {
+        
+        background: #dcdde1;
+        flex-direction: column;
+    }
+    .contact {
+        margin-top: 439px;
+        
+    }
+    
+}

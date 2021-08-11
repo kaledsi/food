@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <img src="img/221886062_3025336827711673_6114746911867149229_n.jpg" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li> <a href="">Home</a> </li>
+                <li> <a href="#service-section">Servises</a></li>
+                <li><a href="#our-client">Our Client</a> </li>
+                <li><a href="">Contact</a></li>
+               
+            </ul>
+        </div>
+    </div>
+
+    <div class="bannner-section">
+        <h1>Wolcome Our Food website</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nam<br>
+             tempore, corporis magnam eaque earum ipsam quasi maiores! Nisi, aliquid?<br>
+             <span id="dots">....</span><span id="More"> consequatur ullam voluptates quaerat nostrum eaque ducimus<br>
+               explicabo dolore.</span></p>
+               <button onclick="myFunction()" id="mybtn">Read More</button>
+    </div>
+
+    <div class="service-section">
+        <div class="card">
+            <img src="img/pexels-photo-1279330.jpeg" alt="">
+            <div class="card-name">
+                <h1>pasta</h1>
+                <p>Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit.
+                     Enim accusamus quis ut commodi 
+                     eius reiciendis doloremque quaerat 
+                     inventore totam ab adipisci, quae 
+                     obcaecati veritatis fugit et tempore iste! Nam, harum.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img/pexels-photo-2983101.jpeg" alt="">
+            <div class="card-name">
+                <h1>pasta</h1>
+                <p>Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit.
+                     Enim accusamus quis ut commodi 
+                     eius reiciendis doloremque quaerat 
+                     inventore totam ab adipisci, quae 
+                     obcaecati veritatis fugit et tempore iste! Nam, harum.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/pexels-photo-1092730.jpeg" alt="">
+            <div class="card-name">
+                <h1>pasta</h1>
+                <p>Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit.
+                     Enim accusamus quis ut commodi 
+                     eius reiciendis doloremque quaerat 
+                     inventore totam ab adipisci, quae 
+                     obcaecati veritatis fugit et tempore iste! Nam, harum.</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="our-client">
+        <h1>our client</h1>
+      <div class="mst">
+        <div class="client-img">
+            <img src="img/kfc-logo-542AAD59EB-seeklogo.com.png" alt="">
+        </div>
+        <div class="client-img">
+            <img class="lot" src="img/download.jpg" alt="">
+        </div>
+        <div class="client-img">
+            <img src="img/download (2).png" alt="">
+        </div>
+        <div class="client-img">
+            <img src="img/images.jpg" alt="">
+        </div>
+      </div>
+    </div>
+</body>
+
+<div class="contact">
+    <input type="text" placeholder="name">
+    <input type="text" placeholder="email">
+    <input type="text" placeholder="number">
+    <textarea rows="8" cols="16" placeholder="your text"></textarea>
+    <button>Submit</button>
+</div>
+<div class="footer">
+    <h1>copy right all reasarv by khaled saifulla</h1>
+</div>
+<script>
+    
+        function myFunction(){
+           if(document.getElementById('dots').style.display=='none'){
+               document.getElementById('More').style.display="none";
+               document.getElementById("mybtn").innerHTML="Read MOre";
+               document.getElementById('dots').style.display='inline';
+           }
+           else{
+            document.getElementById('More').style.display="inline";
+            document.getElementById("mybtn").innerHTML="Read Less";
+            document.getElementById('dots').style.display='none';
+           }
+       }
+ 
+</script>
+</html>
